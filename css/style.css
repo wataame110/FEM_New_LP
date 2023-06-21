@@ -163,7 +163,6 @@ template {
   display: none;
 }
 
-/**formのスタイルリセット**/
 input,
 button,
 select,
@@ -332,7 +331,7 @@ ul, ol, li {
     opacity: 1;
   }
 }
-/*transition & delay*/
+
 .delay01 {
   transition-delay: 0.1s;
 }
@@ -377,9 +376,6 @@ ul, ol, li {
   color: #c65f98;
 }
 
-/* ==============================
-header Styles
-============================== */
 .header__logo {
   width: 65px;
   position: absolute;
@@ -387,9 +383,6 @@ header Styles
   left: 20px;
 }
 
-/* ==============================
-content Styles
-============================== */
 .title {
   position: absolute;
   top: 20px;
@@ -878,9 +871,6 @@ content Styles
   left: 10px;
 }
 
-/* ==============================
-Footer Styles
-============================== */
 .footer__wrap {
   background-color: #2f2520;
   color: #fff;
@@ -906,9 +896,6 @@ Footer Styles
   font-size: 10px;
 }
 
-/* ==============================
-fixBtn Styles
-============================== */
 .cv__fix--wrap {
   position: fixed;
   bottom: 10px;
