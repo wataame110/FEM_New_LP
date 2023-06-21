@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Allura&amp;display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -27,7 +26,6 @@ hr {
 }
 
 pre {
-  font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -48,7 +46,6 @@ b,strong {
 }
 
 code,kbd,samp {
-  font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -76,7 +73,6 @@ img {
 }
 
 button,input,optgroup,select,textarea {
-  font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -144,7 +140,6 @@ textarea {
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
 }
 
 details {
@@ -170,7 +165,6 @@ textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font: inherit;
   outline: none;
 }
 
@@ -223,7 +217,6 @@ html {
 }
 
 body {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 1.4;
@@ -360,14 +353,6 @@ ul, ol, li {
   transition-delay: 0.7s;
 }
 
-.font-yumin {
-  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
-}
-
-.font-allura {
-  font-family: "Allura", cursive;
-}
-
 .mb-25 {
   margin-bottom: 25px;
 }
@@ -403,7 +388,6 @@ ul, ol, li {
 }
 
 .section__title--en {
-  font-family: "Allura", cursive;
   color: rgba(198, 95, 152, 0.5);
   font-size: 60px;
   text-align: center;
@@ -852,7 +836,6 @@ ul, ol, li {
   content: "Q.";
   color: #fff;
   font-size: 20px;
-  font-family: "Allura", cursive;
   margin-right: 8px;
 }
 .faq__item dd {
@@ -865,7 +848,6 @@ ul, ol, li {
   content: "A.";
   color: #c65f98;
   font-size: 20px;
-  font-family: "Allura", cursive;
   position: absolute;
   top: 12px;
   left: 10px;
